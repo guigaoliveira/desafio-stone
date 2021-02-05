@@ -12,7 +12,7 @@ Executar o comando no terminal onde se encontra a pasta com o código do desafio
 
 ## Instruções para rodar o código principal
 
-No arquivo `index.ts` se encontra o código que testei a saída a função principal `main` do módulo `stoneChallenge.ts` usando `console.log`, é possível alterar a entrada da função de acordo com o que ela espera de argumentos e variar as entradas, para rodar o código basta executar no terminal dentro da pasta do desafio o comando `npm run-script start` ou `npx ts-node index.ts`. O módulo `stoneChallenge.ts` contém a função `main` criada para resolver o desafio e funções auxiliares a ela.
+No arquivo `index.ts` se encontra o código que testei a saída a função principal `main` do módulo `stoneChallenge.ts` usando `console.log`. É possível alterar a entrada da função de acordo com o que ela espera de argumentos e variar as entradas e para rodar o código basta executar no terminal dentro da pasta do desafio o comando `npm run-script start` ou `npx ts-node index.ts`. O módulo `stoneChallenge.ts` contém a função `main` criada para resolver o desafio e funções auxiliares a ela.
 
 ## Testes unitários
 
