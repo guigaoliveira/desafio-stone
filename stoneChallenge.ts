@@ -11,10 +11,9 @@ export function distributeNumber (
   total: number = 0,
   divider: number = 0
 ): number[] {
-  return Array.from({ length: divider }, (_, index) => {
-    const baseValue = total / divider
-    return Math.trunc(index < total % divider ? baseValue + 1 : baseValue)
-  })
+  const baseValue = total / divider
+  const rest = total % divider
+  return Array.from({ length: divider }, (_, index) => Math.trunc(index < rest ? baseValue + 1 : baseValue))
 }
 
 export function sumTotalPriceItems (items: Item[] = []): number {
